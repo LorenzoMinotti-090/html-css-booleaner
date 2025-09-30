@@ -5,8 +5,36 @@ header {
   background-size: center;
   background-color: rgb(0, 81, 255);
   background-position: top;
+  padding: 10px;
 }
 
+body {
+      font-family: Arial, sans-serif;
 
+    }
 
+.images{
+  display: flex;
+      gap: 5px;
+      margin: 0;
+}
+.images img {
+      width: 50%;
+      height: auto;
+}
+
+.highlight-blue {
+      background: #2391bc;
+    }
+
+td {
+      width: 30%;
+      padding: 1px;
+      vertical-align: baseline;
+    }
+
+tr {
+  background-color: rgb(0, 200, 255);
+
+}
 
